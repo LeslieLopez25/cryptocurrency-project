@@ -7,7 +7,6 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-
   const navigate = useNavigate();
   const { signUp } = UserAuth();
 
@@ -56,8 +55,8 @@ const Signup = () => {
           </button>
         </form>
         <p className="my-4">
-          Already have an account?
-          <Link to="/signin" className="text-accent ml-1">
+          Already have an account?{" "}
+          <Link to="/signin" className="text-accent">
             Sign in
           </Link>
         </p>
