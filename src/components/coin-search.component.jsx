@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CoinItem from "./coinItem";
+import CoinItem from "./coin-item.component";
 
 const CoinSearch = ({ coins }) => {
   const [searchText, setSearchText] = useState("");

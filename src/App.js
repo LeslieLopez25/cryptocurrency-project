@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar.component";
 import { ThemeProvider } from "./context/ThemeContext";
 import Home from "./routes/home.component";
 import Signin from "./routes/sign-in.component";
@@ -8,7 +8,7 @@ import Signup from "./routes/sign-up.component";
 import Account from "./routes/account.component";
 import CoinPage from "./routes/coin-page.component";
 import axios from "axios";
-import Footer from "./components/footer";
+import Footer from "./components/footer.component";
 import { AuthContextProvider } from "./context/AuthContext";
 
 function App() {

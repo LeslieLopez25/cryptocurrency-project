@@ -1,6 +1,6 @@
 import React from "react";
-import CoinSearch from "../components/coinSearch";
-import Trending from "../components/trending";
+import CoinSearch from "../components/coin-search.component";
+import Trending from "../components/trending.component";
 
 const Home = ({ coins }) => {
   return (

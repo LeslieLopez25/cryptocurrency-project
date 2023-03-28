@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, useNavigate } from "react-router-dom";
-import SavedCoin from "../components/savedCoin";
+import SavedCoin from "../components/saved-coin.component";
 import { UserAuth } from "../context/AuthContext";
 
 const Account = () => {
