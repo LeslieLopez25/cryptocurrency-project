@@ -1,3 +1,21 @@
+<h1>Cryptocurrency :currency_exchange:</h1>
+
+<h2>A Netflix clone created using React and Tailwind as the frontend and firebase as the backend.</h2>
+
+<p>This website is responsive is built using React and Tailwind CSS for the frontend and Firebase is used for the backend where you can sign up to make an account and save movies to your account.</p>
+
+### Link
+
+- Live Site: [Crypto App](https://netflix-react-app-ae50a.web.app/)
+
+### Screenshot
+
+<img src="./screenshots/screenshot-1.png" width="400">
+<img src="./screenshots/screenshot-2.png" width="400">
+<img src="./screenshots/screenshot-3.png" width="400">
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
