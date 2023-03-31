@@ -59,7 +59,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-center py-4">Powered by Coin Gecko</p>
+      <p className="text-center py-4">
+        © {new Date().getFullYear()} Powered by Coin Gecko
+      </p>
     </div>
   );
 };
