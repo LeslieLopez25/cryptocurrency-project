@@ -51,13 +51,13 @@ const Signup = () => {
             </div>
           </div>
           <button className="w-full my-2 p-3 bg-button text-btnText rounded-2xl shadow-xl">
-            Sign up
+            Sign Up
           </button>
         </form>
         <p className="my-4">
           Already have an account?{" "}
           <Link to="/signin" className="text-accent">
-            Sign in
+            Sign In
           </Link>
         </p>
       </div>

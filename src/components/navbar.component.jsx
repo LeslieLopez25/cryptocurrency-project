@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link to="/account" className="p-4">
             Account
           </Link>
-          <button onClick={handleSignOut}>Sign out</button>
+          <button onClick={handleSignOut}>Sign Out</button>
         </div>
       ) : (
         <div className="hidden md:block">

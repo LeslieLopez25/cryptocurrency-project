@@ -22,11 +22,11 @@
 }
 
 .light {
-  --color-bg-primary: #ffffff;
-  --color-bg-secondary: #edf2f7;
-  --color-text-primary: #2d3748;
-  --color-text-secondary: #4a5568;
-  --color-text-accent: #2b6cb0;
-  --color-bg-input: #edf2f7;
-  --color-bg-button: #2b6cb0;
+  --color-bg-primary: hsl(180, 100%, 97.1%);
+  --color-bg-secondary: hsl(150, 100%, 98%);
+  --color-text-primary: hsl(195, 3.6%, 21.6%);
+  --color-text-secondary: hsl(221.1, 8.3%, 55.1%);
+  --color-text-accent: hsl(212.1, 100%, 19.4%);
+  --color-bg-input: hsl(208, 100%, 97.1%);
+  --color-bg-button: hsl(212.1, 100%, 19.4%);
 }

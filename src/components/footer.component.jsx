@@ -44,7 +44,7 @@ const Footer = () => {
                     placeholder="Enter your email"
                   />
                   <button className="bg-button text-btnText px-4 p-2 w-full rounded-2xl hover:shadow-2xl md:w-auto my-2">
-                    Sign up
+                    Sign Up
                   </button>
                 </form>
               </div>
