@@ -1,6 +1,6 @@
 <h1>Crypto App :currency_exchange:</h1>
 
-<h2>A cryptocurrency app created using React and Tailwind as the frontend and firebase as the backend.</h2>
+<h2>A cryptocurrency app created using React and Tailwind as the frontend and Firebase as the backend.</h2>
 
 <p>This website is responsive and it's built using React and Tailwind CSS for the frontend and Firebase is used for the backend where you can sign up to make an account and save the bitcoin currency that interests you. The main pain also shows you which coins are the top ten, their price, their status, market value, and a sparkline. There is also a trending section to show you which coins are popular at the moment.</p>
 
