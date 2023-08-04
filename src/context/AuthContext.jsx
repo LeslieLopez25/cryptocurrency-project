@@ -20,7 +20,6 @@ export const AuthContextProvider = ({ children }) => {
       watchList: [],
     });
   };
-
   const signIn = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
   };
