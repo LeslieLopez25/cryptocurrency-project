@@ -4,6 +4,10 @@
 
 <p>This website is responsive and it's built using React and Tailwind CSS for the frontend and Firebase is used for the backend where you can sign up to make an account and save the bitcoin currency that interests you. The main pain also shows you which coins are the top ten, their price, their status, market value, and a sparkline. There is also a trending section to show you which coins are popular at the moment.</p>
 
+### Note
+
+Once you make an account and your signed in, sign out and sign back in again. Firebase doesn't update the user information until you sign out for the first time.
+
 ### Link
 
 - Live Site: [Crypto App](https://cryptocurrencybase-fb04c.web.app/)
