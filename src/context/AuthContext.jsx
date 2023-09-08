@@ -14,12 +14,30 @@ const UserContext = createContext();
 export const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState({});
 
-  const signUp = (email, password) => {
-    createUserWithEmailAndPassword(auth, email, password);
-    return setDoc(doc(db, "users", email), {
-      watchList: [],
-    });
+  const signUp = async (email, password) => {
+    try {
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        email,
+        password
+      );
+      const user = userCredential.user;
+
+      // Update the user object with the latest data
+      setUser(user);
+
+      // Set user data in Firestore (if needed)
+      await setDoc(doc(db, "users", email), {
+        watchList: [],
+      });
+
+      return user;
+    } catch (error) {
+      console.error("Error signing up:", error.message);
+      throw error;
+    }
   };
+
   const signIn = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password);
   };
