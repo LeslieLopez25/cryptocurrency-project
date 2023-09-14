@@ -10,12 +10,12 @@
 
 ### Screenshots
 
-<img src="./src/screenshots/screenshot-1.png" width="400">
-<img src="./src/screenshots/screenshot-2.png" width="400">
-<img src="./src/screenshots/screenshot-3.png" width="400">
-<img src="./src/screenshots/screenshot-4.png" width="400">
-<img src="./src/screenshots/screenshot-5.png" width="400">
-<img src="./src/screenshots/screenshot-6.png" width="400">
+<img src="./src/assets/screenshots/screenshot-1.png" width="400">
+<img src="./src/assets/screenshots/screenshot-2.png" width="400">
+<img src="./src/assets/screenshots/screenshot-3.png" width="400">
+<img src="./src/assets/screenshots/screenshot-4.png" width="400">
+<img src="./src/assets/screenshots/screenshot-5.png" width="400">
+<img src="./src/assets/screenshots/screenshot-6.png" width="400">
 
 ---
 
