@@ -1,32 +1,30 @@
-import React, { useEffect } from "react";
-import Disk from "../assets/images/disk.gif";
+import React, { useEffect, useState } from "react";
 
-const Loader = ({ hideLoader }) => {
+const Loader = () => {
+  const [visible, setVisible] = useState(true);
+
   useEffect(() => {
-    const minDisplayDuration = 2500; // Minimum display duration in milliseconds (2.5 seconds)
-
-    const startTime = new Date().getTime();
-
-    const loaderTimeout = setTimeout(() => {
-      hideLoader(); // Call the hideLoader function after the minimum display duration
-    }, minDisplayDuration);
-
-    // Check if data has already loaded before the minimum display duration
-    if (new Date().getTime() - startTime >= minDisplayDuration) {
-      clearTimeout(loaderTimeout); // Clear the timeout if data loaded quickly
-      hideLoader(); // Hide the loader immediately
-    }
+    const timer = setTimeout(() => {
+      setVisible(false);
+    }, 2500);
 
     return () => {
-      clearTimeout(loaderTimeout); // Clear the timeout if the component unmounts
+      clearTimeout(timer);
     };
-  }, [hideLoader]);
+  }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="text-center">
-        <img src={Disk} alt="Loading..." className="w-16 h-16" />
-      </div>
+    <div
+      className={`fixed top-0 left-0 w-full h-full flex items-center justify-center bg-opacity-75 z-50 ${
+        visible ? "block" : "hidden"
+      }`}
+      style={{
+        backgroundImage: `url("../assets/images/circles.png")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <img src="../assets/images/disk.gif" alt="Loading..." />
     </div>
   );
 };
