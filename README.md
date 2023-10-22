@@ -1,8 +1,16 @@
 <h1>Crypto App :currency_exchange:</h1>
 
-<h2>A cryptocurrency app created using React and Tailwind as the frontend and Firebase as the backend.</h2>
+<h2>Crypto App is a web application designed to keep you informed about the ever-changing world of cryptocurrencies. Built with React for the frontend using Tailwind CSS and powered by Firebase for the backend, this responsive platform offers a user-friendly experience that lets you stay up-to-date with your favorite digital assets.</h2>
 
-<p>This website is responsive and it's built using React and Tailwind CSS for the frontend and Firebase is used for the backend where you can sign up to make an account and save the bitcoin currency that interests you. The main pain also shows you which coins are the top ten, their price, their status, market value, and a sparkline. There is also a trending section to show you which coins are popular at the moment.</p>
+<p>
+   - User-Friendly Interface: Explore the world of cryptocurrencies through a sleek and intuitive interface designed to enhance your user experience.
+
+- Personalized Accounts: Create your account with ease and personalize your crypto journey by saving your favorite Bitcoin currencies, tailored just for you.
+
+- Real-Time Data: Stay updated with real-time information on the top ten cryptocurrencies, including their current price, market status, and a visually appealing sparkline for quick insights.
+
+- Trending Section: Discover the hottest cryptocurrencies in the market with our trending section, providing you with valuable insights into the latest trends and popular coins.
+</p>
 
 ### Link
 
