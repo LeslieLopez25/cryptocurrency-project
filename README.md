@@ -3,6 +3,7 @@
 <h2>Crypto App is a web application designed to keep you informed about the ever-changing world of cryptocurrencies. Built with React for the frontend using Tailwind CSS and powered by Firebase for the backend, this responsive platform offers a user-friendly experience that lets you stay up-to-date with your favorite digital assets.</h2>
 
 <p>
+
 - User-Friendly Interface: Explore the world of cryptocurrencies through a sleek and intuitive interface designed to enhance your user experience.
 
 - Personalized Accounts: Create your account with ease and personalize your crypto journey by saving your favorite Bitcoin currencies, tailored just for you.
