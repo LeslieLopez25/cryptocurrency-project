@@ -11,6 +11,7 @@ const CoinItem = ({ coin }) => {
   const { user } = UserAuth();
 
   const coinPath = doc(db, "users", `${user?.email}`);
+  // saveCoin: Saves the selected coin to the user's watchlist in Firebase
   const saveCoin = async () => {
     if (user?.email) {
       setSavedCoin(true);
