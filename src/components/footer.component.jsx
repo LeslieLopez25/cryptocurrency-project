@@ -7,6 +7,7 @@ const Footer = () => {
   return (
     <div className="rounded-div mt-8 pt-8 text-primary">
       <div className="grid md:grid-cols-2">
+        {/* Support and Info links */}
         <div className="flex justify-evenly w-full md:max-w-[300px] uppercase">
           <div>
             <h2 className="font-bold">Support</h2>
@@ -27,15 +28,18 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        {/* Newsletter signup, theme toggle, and social icons */}
         <div className="text-right">
           <div className="w-full flex justify-end">
             <div className="w-full md:w-[300px] py-4 relative">
+              {/* Theme toggle component */}
               <div className="flex justify-center md:justify-end py-4 md:py-0 md:pb-4 mt-[-1rem]">
                 <ThemeToggle />
               </div>
               <p className="text-center md:text-right">
                 Sign up for crypto news
               </p>
+              {/* Email signup form (non-functional placeholder) */}
               <div className="py-4">
                 <form>
                   <input
@@ -48,6 +52,7 @@ const Footer = () => {
                   </button>
                 </form>
               </div>
+              {/* Social media icons */}
               <div className="flex py-4 justify-between text-accent">
                 <AiOutlineInstagram />
                 <FaTiktok />
@@ -59,6 +64,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      {/* Copyright footer */}
       <p className="text-center py-4">
         © {new Date().getFullYear()} Powered by Coin Gecko
       </p>
