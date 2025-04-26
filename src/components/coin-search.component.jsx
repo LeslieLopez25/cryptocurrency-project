@@ -3,12 +3,14 @@ import CoinItem from "./coin-item.component";
 
 const CoinSearch = ({ coins }) => {
   const [searchText, setSearchText] = useState("");
+
   return (
     <div className="rounded-div my-4">
       <div className="flex flex-col md:flex-row justify-between pt-4 pb-6 text-center md:text-right">
         <h1 className="text-2xl font-bold my-2">Search Crypto</h1>
         <form>
           <input
+            // Updates the searchText state as user types
             onChange={(e) => setSearchText(e.target.value)}
             className="w-full bg-primary border border-input px-4 py-2 rounded-2xl shadow-xl"
             type="text"
@@ -32,6 +34,7 @@ const CoinSearch = ({ coins }) => {
           </tr>
         </thead>
         <tbody>
+          {/* Filters the coins list by name and maps results to CoinItem component */}
           {coins
             .filter((value) => {
               if (searchText === "") {
