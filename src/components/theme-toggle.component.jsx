@@ -3,6 +3,7 @@ import { HiSun, HiMoon } from "react-icons/hi";
 import { ThemeContext } from "../context/ThemeContext";
 
 const ThemeToggle = () => {
+  // Switches between light and dark themes based on user interaction
   const { theme, setTheme } = useContext(ThemeContext);
 
   return (
