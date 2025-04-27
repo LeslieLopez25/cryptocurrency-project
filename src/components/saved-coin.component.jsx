@@ -9,6 +9,7 @@ const SavedCoin = () => {
   const [coins, setCoins] = useState([]);
   const { user } = UserAuth();
 
+  // Listen to the user's saved coins in real-time in Firestore
   useEffect(() => {
     onSnapshot(doc(db, "users", `${user?.email}`), (doc) => {
       setCoins(doc.data()?.watchList);
@@ -16,6 +17,7 @@ const SavedCoin = () => {
   }, [user?.email]);
 
   const coinPath = doc(db, "users", `${user?.email}`);
+  // Deletes a coin from the user's watchlist in Firestore
   const deleteCoin = async (passedid) => {
     try {
       const result = coins.filter((item) => item.id !== passedid);
