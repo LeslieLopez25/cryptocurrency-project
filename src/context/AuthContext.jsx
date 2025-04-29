@@ -1,3 +1,4 @@
+// Provides user authentication context and functions (sign up, sign in, logout) using Firebase
 import { createContext, useContext, useState, useEffect } from "react";
 import { auth, db } from "../firebase";
 import {
