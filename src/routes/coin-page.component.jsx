@@ -1,3 +1,4 @@
+// Displays detailed information, stats, and description for a selected cryptocurrency
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Sparklines, SparklinesLine } from "react-sparklines";
