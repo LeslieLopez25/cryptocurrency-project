@@ -1,3 +1,4 @@
+// Provides a theme context for toggling and persisting light/dark mode using localstorage and system preferences
 import React, { useState, useEffect, createContext } from "react";
 
 const getInitialTheme = () => {
