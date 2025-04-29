@@ -1,3 +1,4 @@
+// Displays the user's account page with their saved coins and handles sign-out, redirects to sign-in if not authenticated
 import React from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import SavedCoin from "../components/saved-coin.component";
