@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+// Fetches trending coins from CoinGecko and displays them in a styled grid
 const Trending = () => {
   const [trending, setTrending] = useState([]);
 
