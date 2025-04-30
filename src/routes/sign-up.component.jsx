@@ -10,6 +10,7 @@ const Signup = () => {
   const navigate = useNavigate();
   const { signUp } = UserAuth();
 
+  // Handles user registration and navigates to the account page on success
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
