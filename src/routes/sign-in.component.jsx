@@ -10,6 +10,7 @@ const Signin = () => {
   const navigate = useNavigate();
   const { signIn } = UserAuth();
 
+  // Handles user sign-in and redirects to account page on success
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
