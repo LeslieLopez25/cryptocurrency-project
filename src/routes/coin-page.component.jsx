@@ -87,7 +87,11 @@ const CoinPage = () => {
             </div>
             <div>
               <p className="text-gray-500 text-sm">Trust Score</p>
-              {coin.tickers ? <p>{coin.liquidity_score.toFixed(2)}</p> : null}
+              {coin.liquidity_score !== undefined ? (
+                <p>{coin.liquidity_score.toFixed(2)}</p>
+              ) : (
+                <p>N/A</p>
+              )}
             </div>
           </div>
 
